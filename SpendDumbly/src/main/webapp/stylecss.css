@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: face;
+}
+
+body{
+	width: 100vw;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	height: 70px;
+	box-shadow: 1px 1px #834eff6b;
+}
+
+nav .logo{
+	background-image: url('./logo.png');
+	background-size: cover;
+	box-sizing: content-box;
+	width: 70px;
+	height: 70px;
+}
+
+nav .action{
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	width: 50vw;
+	margin-top: 2vw;
+}
+
+nav .content{
+	display: flex;
+	flex-direction: row;
+}
+
+nav .user{
+	background-image: url('./user.svg');
+	background-size: cover;
+	box-sizing: content-box;
+	width: 25px;
+	height: 25px;
+	border: 2px solid  #834eff;
+	padding: 3px;
+	border-radius: 5px;
+}
+
+nav .name{
+	color: #834eff;
+	font-size: 2vw;
+	padding-top: 3px;
+	padding-left: 3px;
+	font-weight: bold;
+}
+
+nav .append{
+	background-image: url('./ajout.svg');
+	background-size: cover;
+	box-sizing: content-box;
+	width: 25px;
+	height: 25px;
+	border: 2px solid  #834eff;
+	padding: 5px;
+	border-radius: 5px;
+	
+}
+
+nav .logout{
+	background-image: url('./logout.svg');
+	background-size: cover;
+	box-sizing: content-box;
+	width: 25px;
+	height: 25px;
+	border: 2px solid  #834eff;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+table {
+	width: 100vw;
+	border-collapse: collapse;
+	margin: 3vw 0vw;
+	padding: 4vw 0vw;
+	align-items: center;
+	text-align: center;
+}
+
+#action{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.modify{
+	background-image: url('./modify.svg');
+	background-size: cover;
+	box-sizing: content-box;
+	width: 10px;
+	height: 10px;
+	border: 2px solid  #834eff;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.grant{
+	background-color:  #834eff;
+	color: white;
+	font-size: 2vw;
+	font-weight: bold; 
+}
+
+.supprimer{
+	background-image: url('./supprimer.svg');
+	background-size: cover;
+	box-sizing: content-box;
+	width: 10px;
+	height: 10px;
+	border: 2px solid  #834eff;
+	padding: 5px;
+	border-radius: 5px;
+}
